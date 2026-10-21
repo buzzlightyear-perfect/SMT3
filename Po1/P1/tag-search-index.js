@@ -1,0 +1,1 @@
+tagSearchIndex = [{"l":"Kelas Lingkaran","h":"class Lingkaran","d":"Section","u":"Lingkaran.html#kelas-lingkaran-heading"}];updateSearchResults();
