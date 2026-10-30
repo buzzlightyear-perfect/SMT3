@@ -10,20 +10,20 @@ public class EksplorasiPrimitif {
         char inisial = 'U';
         boolean statusAktif = true;
 
-        System.out.println("-- [DEMONSTRASI TIPE DATA PRIMITIF] --");
-        System.out.println("Nilai Byte    : " + nilaiByte);
-        System.out.println("Nilai Short   : " + nilaiShort);
-        System.out.println("Nilai Int     : " + nilaiInt);
-        System.out.println("Nilai Long    : " + nilaiLong);
-        System.out.println("Nilai Float   : " + nilaiFloat);
-        System.out.println("Nilai Double  : " + nilaiDouble);
-        System.out.println("Karakter      : " + inisial);
-        System.out.println("Status Aktif  : " + statusAktif);
+        System.out.println("--- [DEMONSTRASI TIPE DATA PRIMITIF] ---");
+        System.out.println("Nilai Byte   : " + nilaiByte);
+        System.out.println("Nilai Short  : " + nilaiShort);
+        System.out.println("Nilai Int    : " + nilaiInt);
+        System.out.println("Nilai Long   : " + nilaiLong);
+        System.out.println("Nilai Float  : " + nilaiFloat);
+        System.out.println("Nilai Double : " + nilaiDouble);
+        System.out.println("Karakter     : " + inisial);
+        System.out.println("Status Aktif : " + statusAktif);
 
         // Uji coba fenomena Overflow
         System.out.println("\n--- [PENGUJIAN OVERFLOW BILANGAN] ---");
-        byte overflowByte = (byte)(nilaiByte + 1);
+        byte overflowByte = (byte) (nilaiByte + 1);
         System.out.println("Nilai 127 + 1 pada tipe byte: " + overflowByte
-            + " (Terjadi Overflow!)");
+                + " (Terjadi Overflow!)");
     }
 }
